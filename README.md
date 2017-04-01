@@ -1,7 +1,7 @@
 # rascsi-util
 これは何？
 
-raSCSIというソフトウェアをRaspberry Piにセットアップを自動で行う補助ツールになっています。
+raSCSIというソフトウェアをRaspberry Piにダウンロードからセットアップを自動で行う補助ツールになっています。
 インストール方法(以下Raspberry Piでの操作）
 $wget https://github.com/applesorce/rascsi-util/blob/master/rascsi-util.tar.gz  
 $tar zxvf rascsi-util.tar.gz  
