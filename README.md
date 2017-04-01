@@ -6,8 +6,11 @@ raSCSIというソフトウェアをRaspberry Piにセットアップを自動�
 $wget https://github.com/applesorce/rascsi-util/blob/master/rascsi-util.tar.gz
 
 $tar zxvf rascsi-util.tar.gz
+
 $cd rascsi-util
+
 $./rascsisetup.sh
+
 コマンド途中にsystemdに登録するかどうかを訪ねてきます。
 
 ｈ・・・HDDモードで登録
