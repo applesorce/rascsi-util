@@ -3,16 +3,16 @@ CSI環境を構築スクリプト
 #登録されるsystemd等はread.meで確認すること
 #
 #。
-wget http://www.geocities.jp/kugimoto0715/rascsi/rascsi120.zip
-unzip rascsi120.zip
-mv rascsi120/bin/raspberrypi/rascsi.tar.gz  .
+wget http://www.geocities.jp/kugimoto0715/rascsi/rascsi121.zip
+unzip rascsi121.zip
+mv rascsi121/bin/raspberrypi/rascsi.tar.gz  .
 tar zxvf rascsi.tar.gz
 sudo mv rascsi /usr/local/bin/
 sudo mv rasctl /usr/local/bin/
 echo "後片付けを行います。"
 sleep 1
 rm rascsi120.zip
-rm -rf rascsi120/
+rm -rf rascsi121/
 rm rascsi.tar.gz
 echo -n "/usr/local/binへのrascsiのインストールが行われました。デーモン登録(HDD,bridge,allどれか)を実施しますか？[h/e/a/n]"
 while :
