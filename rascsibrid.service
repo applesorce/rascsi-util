@@ -1,0 +1,11 @@
+[Unit]
+Description = raScsiBridgeDaemon
+[Service]
+ExecStart=/usr/local/bin/rascsibrid.sh
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/bin/kill $MAINPID
+Restart=no
+Type=simple
+
+[Install]
+WantedBy = multi-user.target
