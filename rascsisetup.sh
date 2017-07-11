@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 #rascsi環境導入スクリプト
+=======
+CSI環境を構築スクリプト
+>>>>>>> origin/master
 #systemdに登録までしてしまうのです
 #登録されるsystemd等はread.meで確認すること
 #
 #。
+<<<<<<< HEAD
 wget http://www.geocities.jp/kugimoto0715/rascsi/rascsi130.zip -P ./temp
 cd temp
 unzip rascsi130.zip
@@ -17,6 +22,19 @@ echo "後片付けを行います。"
 sleep 1
 cd ..
 rm -rf temp
+=======
+wget http://www.geocities.jp/kugimoto0715/rascsi/rascsi121.zip
+unzip rascsi121.zip
+mv rascsi121/bin/raspberrypi/rascsi.tar.gz  .
+tar zxvf rascsi.tar.gz
+sudo mv rascsi /usr/local/bin/
+sudo mv rasctl /usr/local/bin/
+echo "後片付けを行います。"
+sleep 1
+rm rascsi120.zip
+rm -rf rascsi121/
+rm rascsi.tar.gz
+>>>>>>> origin/master
 echo -n "/usr/local/binへのrascsiのインストールが行われました。デーモン登録(HDD,bridge,allどれか)を実施しますか？[h/e/a/n]"
 while :
   do
