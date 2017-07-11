@@ -1,8 +1,5 @@
 <<<<<<< HEAD
 #rascsi環境導入スクリプト
-=======
-CSI環境を構築スクリプト
->>>>>>> origin/master
 #systemdに登録までしてしまうのです
 #登録されるsystemd等はread.meで確認すること
 #
